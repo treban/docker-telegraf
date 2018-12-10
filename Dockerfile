@@ -10,5 +10,5 @@ LABEL Description="Telegraf docker image" Maintainer="trebankosta@gmail.com" Ver
 
 ####### install #######
 RUN apt-get update
-RUN apt-get install -y python python-dev
+RUN apt-get install -y python python-dev python-requests
 RUN rm -rf /var/lib/apt/lists/*
